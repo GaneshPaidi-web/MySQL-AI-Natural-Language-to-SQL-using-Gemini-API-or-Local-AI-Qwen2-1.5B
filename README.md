@@ -31,6 +31,19 @@ MySQL-AI is particularly useful for developers, analysts, and non-technical user
 
 --------Configuration---------
 
+--------Run the React vite server-------
+**npm run dev**
+
+
+--------Run the node server-----------
+**node server.js**
+
+
+After that choose your server like
+1. GEMINI API------->  ** python gemini_server.py**
+            or
+2. Local Ai  ------->  ** python local_ai_server.py**
+
 The AI provider and model can be configured using the .env file. This allows you to easily switch between Gemini API and Local AI.
 
 Create a .env file in the project root and configure the AI provider.
